@@ -20,11 +20,13 @@ const Navigation = () => {
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-sm">IK</span>
+          <Link to="/" className="flex items-center">
+            <div className="text-xl font-black tracking-tight">
+              <span className="bg-gradient-to-r from-primary via-primary-glow to-accent bg-clip-text text-transparent drop-shadow-lg">
+                Influencers
+              </span>
+              <span className="text-foreground">Kit</span>
             </div>
-            <span className="text-xl font-bold text-foreground">InfluencersKit</span>
           </Link>
 
           {/* Desktop Navigation */}
